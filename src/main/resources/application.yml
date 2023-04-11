@@ -6,6 +6,9 @@ datasources:
     driver-class-name: com.mysql.cj.jdbc.Driver
     db-type: mysql
     dialect: MYSQL
+    url: jdbc:mysql://localhost:3306/timetracker
+    username: root
+    password: gimp950620
 netty:
   default:
     allocator:
@@ -15,4 +18,9 @@ jpa:
     properties:
       hibernate:
         hbm2ddl:
-          auto: update
+          auto: none
+        show_sql: true
+flyway:
+  datasources:
+    default:
+      enabled: true

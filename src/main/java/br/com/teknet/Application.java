@@ -1,4 +1,4 @@
-package bt.com.teknet;
+package br.com.teknet;
 
 import io.micronaut.runtime.Micronaut;
 
